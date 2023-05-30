@@ -73,8 +73,8 @@ app.post("/insertArticle", async (req, res) => {
 
     var connection = mysql.createConnection({
       host: "localhost",
-      user: "root",
-      password: "",
+      user: "mart",
+      password: "star0629",
       database: "chatgpt10",
     });
 
@@ -127,8 +127,8 @@ app.post("/article", async (req, res) => {
   // console.log(req.body);
   var connection = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "",
+    user: "mart",
+    password: "star0629",
     database: "chatgpt10",
   });
 
@@ -160,8 +160,8 @@ app.post("/article", async (req, res) => {
 app.post("/topArticle", async (req, res) => {
   var connection = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "",
+    user: "mart",
+    password: "star0629",
     database: "chatgpt10",
   });
   connection.connect(function (err) {
@@ -195,8 +195,8 @@ app.post("/updateVote", async (req, res) => {
   }
   var connection = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "",
+    user: "mart",
+    password: "star0629",
     database: "chatgpt10",
   });
   connection.connect(function (err) {
