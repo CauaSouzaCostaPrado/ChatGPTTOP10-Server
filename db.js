@@ -3,8 +3,8 @@ import mysql from 'mysql';
 // Importing module
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'root',
-    password : '',
+    user     : 'mart',
+    password : 'star0629',
 });
 
 // Connecting to database
