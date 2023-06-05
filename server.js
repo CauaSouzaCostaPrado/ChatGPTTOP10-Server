@@ -166,7 +166,7 @@ app.post("/topArticle", async (req, res) => {
   });
   connection.connect(function (err) {
     try {
-      var sql = `SELECT * FROM articles ORDER BY vote DESC LIMIT 12`;
+      var sql = `SELECT * FROM articles ORDER BY vote DESC LIMIT 10`;
     } catch {
       res.status(500).send(err || "Internal Server Error!");
       if (err) throw err;
